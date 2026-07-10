@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio-website</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+        (function () {
+            emailjs.init({
+                publicKey: "6p5_yQmUk3VNJdub4",
+            });
+        })();
+    </script>
+    <script src="index.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js"></script>
+</head>
+
+<body>
+    <div class="navigation-bar">
+        <div class="main-heading">PORTFOLIO</div>
+        <a href="#home-section">Home</a>
+        <a href="#about-section">About</a>
+        <a href="#skills-section">Skills</a>
+        <a href="#project-section">Project</a>
+        <a href="#contact-section">Contact</a>
+    </div>
+    <section class="home-section" id="home-section">
+        <div class="left-section">
+            <h1 class="heading">Hi, I'm Devika</h1> <br>
+            <p><b>B.Sc. Computer Science Graduate |Web Development Intern |Passionate About Building Responsive
+                    Websites
+                </b></p>
+            <p class="about"> I am a Computer Science Graduate with a passion for web development.<br>
+                I enjoy learning new technologies, solving problems, and building responsive websites using HTML and
+                CSS.</p>
+
+        </div>
+        <div class="right-section">
+            <img class="image" src="image/my-photo.png">
+
+        </div>
+    </section>
+
+    <section id="about-section">
+        <div class="about-container">
+            <h1>About Me</h1>
+
+            <p>
+                I'm <strong>Devika</strong>, a passionate Computer Science graduate
+                with a strong interest in web development. Currently, I'm gaining
+                hands-on experience as a Web Development Intern at Bridgeon, where
+                I'm strengthening my front-end development skills.
+            </p>
+
+            <p>
+                I enjoy turning ideas into responsive and visually appealing
+                websites using HTML, CSS, and JavaScript. Every project I build
+                helps me improve my problem-solving abilities and deepen my
+                understanding of modern web development.
+            </p>
+
+            <p>
+                I'm always eager to learn new technologies, collaborate with
+                others, and grow as a developer while building meaningful and
+                user-friendly web applications.
+            </p>
+        </div>
+    </section>
+
+    </section>
+    <section id="skills-section">
+        <section id="skills-section">
+
+            <div class="skills-container">
+
+                <h1>My Skills</h1>
+                <p>Technologies and tools I'm currently learning and working with.</p>
+
+                <div class="skills-grid">
+
+                    <div class="skill-card">
+                        <h3>HTML5</h3>
+                        <p>Semantic structure and responsive layouts.</p>
+                    </div>
+
+                    <div class="skill-card">
+                        <h3>CSS</h3>
+                        <p>Flexbox, Grid, animations and responsive design.</p>
+                    </div>
+
+                    <div class="skill-card">
+                        <h3>JavaScript</h3>
+                        <p>DOM manipulation, events and basic programming concepts.</p>
+                    </div>
+
+                    <div class="skill-card">
+                        <h3>VS Code</h3>
+                        <p>Efficient coding with extensions and debugging tools.</p>
+                    </div>
+
+                    <div class="skill-card">
+                        <h3>Responsive Design</h3>
+                        <p>Building websites that work on all devices.</p>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+    </section>
+
+    <section class="project-section" id="project-section">
+        <div>
+            <h1>project</h1>
+            <h3>Navigation Bar Using Flexbox</h3>
+            <p>
+                Navigation Bar Using Flexbox
+                Created a responsive navigation bar using HTML and CSS.<br>
+                Implemented Flexbox to align elements, manage spacing, and create a clean and organized layout.<br> <br>
+                <b>Technologies Used:</b><br><br>
+                HTML5<br>
+                CSS3<br>
+                Flexbox<br>
+            </p>
+        </div>
+        <div>
+            <img class="navbar" src="image/navbar.png">
+        </div>
+    </section>
+    <section id="contact-section" class="contact-section">
+
+        <h1 class="">Contact Me</h1>
+
+        <div class="contact-container">
+
+            <div class="contact-info">
+                <h2>Let's Connect</h2>
+
+                <p>I'd love to hear from you. Feel free to send me a message!</p>
+
+                <p>📧 devika@example.com</p>
+                <p>📍 Kerala, India</p>
+
+            </div>
+
+            <div class="contact-form">
+
+                <form>
+
+                    <input type="text" id="name" placeholder="Your Name">
+
+                    <input type="email" id="email" placeholder="Your Email">
+
+                    <textarea id="message" placeholder="Your Message"></textarea>
+
+                    <button type="submit" onclick="sendMail()">Send Message</button>
+
+                </form>
+
+            </div>
+
+        </div>
+
+    </section>
+
+</body>
+
+</html>
